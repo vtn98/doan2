@@ -204,13 +204,13 @@ Click **"Xem chi tiết"** sau đó vào giao diện click **"Thông tin cơ b�
     - Click **"Tình trạng kho hàng"** để xem thông tin chi tiết các mặt hàng có trong kho và có thể thực hiện chức năng **"Chuyển kho"**.
 <img src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.15752-9/48421341_344717236310225_8703990278928728064_n.png?_nc_cat=105&amp;_nc_ht=scontent.fsgn2-1.fna&amp;oh=454cbdb9e89411874973cd86809cb3fe&amp;oe=5C90038F" alt="" class="img" style="width: 718px; height: 365px;">
 
-        Ở đây chúng ta có thể tìm kiếm các mặt hàng thông qua tên hàng hóa và mã hàng hóa hoặc thực hiện chức năng **"Chuyển kho"**.
+Ở đây chúng ta có thể tìm kiếm các mặt hàng thông qua tên hàng hóa và mã hàng hóa hoặc thực hiện chức năng **"Chuyển kho"**.
         
     - Click **"Chuyển kho"** để sang giao diện **Lưu chuyển hàng hóa**.
     
-        <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/48366073_2203615666632711_8481425370002751488_n.png?_nc_cat=101&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=256df63eaedb7e5fef4a4155c13dd1ed&amp;oe=5C8E4872" alt="" class="img" style="width: 718px; height: 363px;">
+<img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/48366073_2203615666632711_8481425370002751488_n.png?_nc_cat=101&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=256df63eaedb7e5fef4a4155c13dd1ed&amp;oe=5C8E4872" alt="" class="img" style="width: 718px; height: 363px;">
     
-        <img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.15752-9/48422144_1882714578494294_5246069906570477568_n.png?_nc_cat=100&amp;_nc_ht=scontent.fsgn2-2.fna&amp;oh=16acf7ac1117a2013e4f3a4b49717d32&amp;oe=5C990CD6" alt="" class="img" style="width: 718px; height: 365px;">
+<img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.15752-9/48422144_1882714578494294_5246069906570477568_n.png?_nc_cat=100&amp;_nc_ht=scontent.fsgn2-2.fna&amp;oh=16acf7ac1117a2013e4f3a4b49717d32&amp;oe=5C990CD6" alt="" class="img" style="width: 718px; height: 365px;">
         
 - Lịch sử kho hàng
 

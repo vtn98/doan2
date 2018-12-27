@@ -141,8 +141,9 @@ Giao diện của hệ thống hiện ra (đây là giao diện của nhà phân
 
 - Cập nhật thông tin sản phẩm
  
-    <img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.15752-9/49196511_215410002729350_7712765909240119296_n.png?_nc_cat=102&amp;_nc_ht=scontent.fsgn2-2.fna&amp;oh=8239e79e98c9f7302f81ecc064284e4e&amp;oe=5CD1E3DA" alt="" class="img" style="width: 718px; height: 366px;">
-    Ở đây chúng ta có thể thay đổi 1 số thông tin của sản phẩm và click **"Cập nhật"** để cập nhật lại thông tin của sản phẩm.
+<img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.15752-9/49196511_215410002729350_7712765909240119296_n.png?_nc_cat=102&amp;_nc_ht=scontent.fsgn2-2.fna&amp;oh=8239e79e98c9f7302f81ecc064284e4e&amp;oe=5CD1E3DA" alt="" class="img" style="width: 718px; height: 366px;">
+
+Ở đây chúng ta có thể thay đổi 1 số thông tin của sản phẩm và click **"Cập nhật"** để cập nhật lại thông tin của sản phẩm.
 - Tìm kiếm sản phẩm theo tên và nhóm hàng hóa bằng cách nhập tên hàng hóa và nhóm sản phẩm, sau đó click **"Tìm kiếm"**.
 
 <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.15752-9/48992745_498054904017355_3431771473293869056_n.png?_nc_cat=108&amp;_nc_ht=scontent.fsgn2-3.fna&amp;oh=66c6f8e5af16b47ffb0adf2567684371&amp;oe=5CD8F68D" alt="" class="img" style="width: 718px; height: 355px;">

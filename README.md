@@ -179,6 +179,7 @@ Chọn nhóm sản phẩm muốn cập nhật thông tin sau đó click **"Cập
 **2.1. Tạo mới kho hàng**
 
 <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/49192827_992638364253168_8441283789610549248_n.png?_nc_cat=109&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=5da4048bf86538618a025cf56fb9fb63&amp;oe=5C9C75A4" alt="" class="img" style="width: 718px; height: 354px;">
+
 Điền thông tin đầy đủ vào form tạo mới kho hàng và click **"Tạo mới"**
 
 **2.2. Danh sách kho hàng**

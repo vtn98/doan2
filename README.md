@@ -147,6 +147,7 @@ Giao diện của hệ thống hiện ra (đây là giao diện của nhà phân
 - Tìm kiếm sản phẩm theo tên và nhóm hàng hóa bằng cách nhập tên hàng hóa và nhóm sản phẩm, sau đó click **"Tìm kiếm"**.
 
 <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.15752-9/48992745_498054904017355_3431771473293869056_n.png?_nc_cat=108&amp;_nc_ht=scontent.fsgn2-3.fna&amp;oh=66c6f8e5af16b47ffb0adf2567684371&amp;oe=5CD8F68D" alt="" class="img" style="width: 718px; height: 355px;">
+
 - Tìm kiếm sản phẩm theo mã bằng cách nhập mã sản phẩm sau đó click **"Tìm kiếm"**.
 
 <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/49171355_605040963250413_8826281088906166272_n.png?_nc_cat=101&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=4342b4680af79692abdd5831491a1a4a&amp;oe=5C8D98F2" alt="" class="img" style="width: 718px; height: 353px;">

@@ -1,0 +1,69 @@
+{% extends 'hethong/nha_phan_phoi.html' %}
+
+{% block tieude %}
+<h3>Danh sách nhóm hàng hóa</h3>
+{% endblock %}
+
+{% block body %}
+<div class="col-sm-5">
+	<form style="border:1px solid gray; padding: 10px;" role="form" action="" method="POST">
+		{% csrf_token %}
+		<div class="form-group">
+			<label for="exampleInputName">Tên nhóm hàng hóa: <span style="color: red;">*</span></label>
+			<div class="input-group">
+				<span class="input-group-addon">
+					<i class="glyphicon glyphicon-user"></i>
+					 
+				</span>
+				<input type="text" class="form-control" id="exampleInputName" name="product_type" placeholder="Nhập loại hàng hóa" required="">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="exampleInputDescription">Mô tả: <span style="color: red;">*</span></label>
+			<div class="input-group">
+				<textarea class="form-control" cols="150" id="exampleInputDescription" name="description" required=""></textarea>
+			</div>
+		</div>	
+
+		<div>
+			<button type="submit" class=" btn btn-primary" name="taomoi">Tạo mới</button>
+		</div>
+
+		<div>
+			<!-- Thong bao ket qua tao moi -->
+			{% if messages %}
+			<ul class="messages">
+			    {% for message in messages %}
+			    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+			    {% endfor %}
+			</ul>
+			{% endif %}
+		</div>
+	</form>
+</div>
+
+<div class="col-sm-7">
+	<form style="border:1px solid gray; padding: 10px;" role="form" action="" method="POST">
+		{% csrf_token %}
+		<table class="table table-striped">
+			<thead>
+				<th>STT</th>
+				<th>Tên</th>
+				<th>Mô tả</th>
+				<th>Action</th>
+			</thead>
+			<body>
+				{% for row in form %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{row.name}}</td>
+						<td>{{row.description}}</td>
+						<td><input type="submit" class=" btn btn-primary" name="capnhat" value="Cập nhật" formaction="{% url 'cap_nhat_loai_hang_hoa' row.name %}"></input></td>
+					</tr>
+				{% endfor %}
+			</body>
+		</table>
+	</form>
+</div>
+{% endblock %}

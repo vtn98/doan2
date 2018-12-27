@@ -1,0 +1,66 @@
+{% extends 'hethong/nha_phan_phoi.html' %}
+
+{% block tieude %}
+Tạo nhà cung cấp
+{% endblock %}
+
+{% block body %}
+<form style="border:1px solid gray; padding: 10px; margin-top: 40px;" role="form" action="" method="POST">
+	{% csrf_token %}
+	<div class="form-group">
+		<label for="exampleInputEmail1">Tên nhà cung cấp:</label>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<i class="glyphicon glyphicon-user"></i>
+				 
+			</span>
+			<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="tenncc">
+		</div>
+		<!--  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputPassword1">Địa chỉ:</label>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<i class="glyphicon glyphicon-home"></i>
+			</span>
+			<input type="form-text" class="form-control" id="exampleInputPassword1" name="diachincc">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputPassword1">Số điện thoại:</label>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<i class="glyphicon glyphicon-phone"></i>
+			</span>
+			<input type="text" class="form-control" id="exampleInputPassword1" name="sdtncc">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputPassword1">Email:</label>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<i class="glyphicon glyphicon-envelope"></i>
+			</span>
+			<input type="email" class="form-control" id="exampleInputPassword1" name="emailncc">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputPassword1">Các mặt hàng cung cấp:</label>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<i class="glyphicon glyphicon-list-alt"></i>
+			</span>
+			<input type="text" class="form-control" id="exampleInputPassword1" name="cacmathangcc">
+		</div>
+	</div>
+
+	<button type="submit" class=" btn btn-primary" name="taomoi">Tạo mới</button>	
+	 
+</form>
+
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'hethong/nha_phan_phoi.html' %}
+
+{% block tieude %}
+<h3>Danh sách kho hàng</h3>
+{% endblock %}
+
+{% block body %}
+<form style="border:1px solid gray; padding: 10px; margin-top: 40px;" role="form" action="" method="POST">
+	{% csrf_token %}
+	<div class="form-group" style="margin-top: 20px;">
+		<div class="row">
+			<div class="col-sm-3">
+				<input type="text" name="name" placeholder="Nhập tên kho hàng..." style="height: 33px; width: 250px;">	
+			</div>
+			<div class="col-sm-3">
+				<input type="text" name="code" placeholder="Nhập mã kho hàng..." style="height: 33px; width: 250px;">
+			</div>
+			<div class="btn-group">
+				<div class="col-sm-3">
+					<button type="submit" class=" btn btn-primary" name="timkiem"><span class="glyphicon glyphicon-search"></span>Tìm kiếm</button>
+				</div>
+			</div>
+		</div>
+		 
+	</div>
+	<div class="form-group" style="margin-top: 30px;">
+		<table class="table table-striped">
+			<thead>
+				<th>STT</th>
+				<th>Mã kho hàng</th>
+				<th>Tên kho hàng</th>
+				<th>Địa chỉ</th>
+				<th>Số điện thoại</th>
+				<th>Action</th>
+			</thead>
+			<body>
+				{% for row in form %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{row.code}}</td>
+						<td>{{row.name}}</td>
+						<td>{{row.address}}</td>
+						<td>{{row.mobile}}</td>
+						<td><button type="submit" class=" btn btn-primary" name="capnhat" formaction="{% url 'chi_tiet_kho_hang' row.id %}">Xem chi tiết</button></td>
+					</tr>
+				{% endfor %}
+			</body>
+		</table>
+	</div>
+</form>
+{% endblock %}

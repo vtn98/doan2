@@ -1,0 +1,88 @@
+{% extends 'hethong/nha_phan_phoi.html' %}
+{% block tieude %}
+<h3>Cập nhật thông tin hàng hóa</h3>
+{% endblock %}
+{% block body %}
+{% load staticfiles %}
+<form style="border:1px solid gray; padding: 10px; margin-top: 40px;" role="form" action="" method="POST">
+	{% csrf_token %}
+	{% for form in form %}
+	<div class="form-group">
+		<label for="exampleInputName">Tên sản phẩm: <span style="color: red;">*</span></label>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<i class="glyphicon glyphicon-user"></i>
+				 
+			</span>
+			<input type="text" class="form-control" id="exampleInputName" name="name" value="{{form.name}}" required="">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputCode">Mã code sản phẩm: <span style="color: red;">*</span></label>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<i class="glyphicon glyphicon-qrcode"></i>
+			</span>
+			<input type="text" class="form-control" id="exampleInputCode" name="code" value="{{form.code}}" required="" disabled="">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputPrice">Giá sản phẩm(VND): <span style="color: red;">*</span></label>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<i class="glyphicon glyphicon-qrcode"></i>
+			</span>
+			<input type="text" class="form-control" id="exampleInputPrice" name="price" value="{{form.price}}" required="">
+		</div>
+	</div>
+
+	<div class="form-group" style="text-align: left;">
+	    <label for="exampleInputType">Nhóm sản phẩm: <span style="color: red;">*</span></label>
+	    <div class="input-group">
+	      	<span class="input-group-addon">
+	        	<i class="glyphicon glyphicon-list-alt"></i>
+	      	</span>
+	      	<select class="form-control" id="exampleInputType" name="product_type" required="" disabled="">
+	      		<option>{{form.product_type}}</option>
+	      	</select>
+	    </div>
+  	</div>
+
+  	<div class="form-group">
+		<label for="exampleInputImage">Upload ảnh sản phẩm: <span style="color: red;">*</span></label>
+		<br>
+		<div class="btn btn-danger">
+			<input type="file" id="exampleInputImage" name="image" style="color: white;" required="" accept="image/png, image/jpg"> 
+		</div>
+		<div>
+			<img src="{% static form.image %}" alt="" class="d-block w-100">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label for="exampleInputDescription">Thông tin thêm về hàng hóa: <span style="color: red;">*</span></label>
+		<div class="input-group">
+			<textarea class="form-control" cols="150" id="exampleInputDescription" name="description" required="">{{form.description}}</textarea>
+		</div>
+	</div>
+	 
+	<div>
+		<input type="submit" class=" btn btn-primary" name="luu" value="Lưu"></input>
+	</div>	
+	{% endfor %}
+
+	<!-- Thong bao ket qua cap nhat -->
+	{% if messages %}
+	<ul class="messages">
+	    {% for message in messages %}
+	    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+</form>
+{% endblock %}
+<!-- Readme: Cài đặt và sử dụng --
+src: mã nguồn
+doc: phân tích và thiết kế>

@@ -171,7 +171,7 @@ Giao diện của hệ thống hiện ra (đây là giao diện của nhà phân
 Chọn nhóm sản phẩm muốn cập nhật thông tin sau đó click **"Cập nhật"**. Giao diện cập nhật thông tin nhóm sản phẩm hiện ra, người quản trị có thể thay đổi 1 số thông tin của nhóm sản phẩm, sau đó click **"Lưu"** để lưu thông tin mới của nhóm sản phẩm.
 <img src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.15752-9/49147993_396268661116562_5335922847195856896_n.png?_nc_cat=105&amp;_nc_ht=scontent.fsgn2-1.fna&amp;oh=52443ff022277a4e6f35ce465e257389&amp;oe=5CD13E1C" alt="" class="img" style="width: 718px; height: 366px;">
 
-    **2. Hệ thống kho hàng**
+**2. Hệ thống kho hàng**
     
 <img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.15752-9/48421625_218872242326632_8805683211733565440_n.png?_nc_cat=102&amp;_nc_ht=scontent.fsgn2-2.fna&amp;oh=6dd599e09232384a4f3119af9bc0ea75&amp;oe=5C9E1188" alt="" class="img" style="width: 718px; height: 366px;">
 Ở đây thực hiện các chức năng: Tạo mới kho hàng, xem danh sách kho hàng, xem chi tiết kho hàng (bao gồm: Thông tin cơ bản, tình trạng kho hàng, lịch sử kho hàng).

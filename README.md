@@ -158,12 +158,14 @@ Giao diện của hệ thống hiện ra (đây là giao diện của nhà phân
 Ở đây chúng ta có thể thực hiện chức năng tạo mới nhóm sản phẩm và cập nhật thông tin của nhóm sản phẩm.
 
 - Tạo mới nhóm sản phẩm
+
 <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.15752-9/48425853_552730938534436_1917154468995006464_n.png?_nc_cat=106&amp;_nc_ht=scontent.fsgn2-3.fna&amp;oh=d8210094851f5475a6fdcb1bb423ab0c&amp;oe=5CD30B8A" alt="" class="img" style="width: 718px; height: 366px;">
+
 Điền đầy đủ thông tin của nhóm sản phẩm cần tạo vào form, sau đó click **"Tạo mới"**.
 
-    <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/49072177_1885089551540401_7202568582394281984_n.png?_nc_cat=109&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=4b5a19470ced67ebd595d35eb28d7f95&amp;oe=5C9EAB86" alt="" class="img" style="width: 718px; height: 365px;">
+<img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/49072177_1885089551540401_7202568582394281984_n.png?_nc_cat=109&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=4b5a19470ced67ebd595d35eb28d7f95&amp;oe=5C9EAB86" alt="" class="img" style="width: 718px; height: 365px;">
     
-    <img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.15752-9/49110906_2799423250074046_9081102052628627456_n.png?_nc_cat=103&amp;_nc_ht=scontent.fsgn2-2.fna&amp;oh=359a8cc8ac4f13bbcef9c645173b5cc7&amp;oe=5CD545D5" alt="" class="img" style="width: 718px; height: 355px;">
+<img src="https://scontent.fsgn2-2.fna.fbcdn.net/v/t1.15752-9/49110906_2799423250074046_9081102052628627456_n.png?_nc_cat=103&amp;_nc_ht=scontent.fsgn2-2.fna&amp;oh=359a8cc8ac4f13bbcef9c645173b5cc7&amp;oe=5CD545D5" alt="" class="img" style="width: 718px; height: 355px;">
 
 - Cập nhật thông tin của nhóm sản phẩm
 Chọn nhóm sản phẩm muốn cập nhật thông tin sau đó click **"Cập nhật"**. Giao diện cập nhật thông tin nhóm sản phẩm hiện ra, người quản trị có thể thay đổi 1 số thông tin của nhóm sản phẩm, sau đó click **"Lưu"** để lưu thông tin mới của nhóm sản phẩm.

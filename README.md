@@ -226,7 +226,6 @@ Click **"Xem chi tiết"** sau đó vào giao diện click **"Thông tin cơ b�
 <video height="383" width="718" preload="auto" style="" class="_ox1 _21y0" data-video-width="718" data-video-height="383" data-ad-preview="video" id="u_6m_2" src="https://video.fsgn2-2.fna.fbcdn.net/v/t42.3356-2/49533493_2410791592295731_3310859674195019278_n.mp4/video-1545995621.mp4?_nc_cat=100&amp;vabr=251947&amp;_nc_ht=video.fsgn2-2.fna&amp;oh=5400740dc06c0fac7d442653fdbccf9f&amp;oe=5C280825&amp;dl=1"></video>
 
 [](media%2Fdemo.wmv)
-
 haha
 
 

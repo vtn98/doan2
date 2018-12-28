@@ -3,81 +3,7 @@
 Để download MySQL Community, truy cập vào địa chỉ:
 [http://dev.mysql.com/downloads/mysql]()
 
-![](https://o7planning.org/vi/10221/cache/images/i/20529.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20524.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20531.png)
-
-Sau khi download file cài đặt về xong, chạy nó:
-
-![](https://o7planning.org/vi/10221/cache/images/i/20709.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20711.png)
-
-Chọn cài đặt tất cả.
-![](https://o7planning.org/vi/10221/cache/images/i/20713.png)
-
-Tại bước này bộ cài đặt thông báo máy tính của bạn chưa cài đặt một vài thư viện cần thiết. Vì vậy cần phải nhấn vào các thư viện cần thiết và nhấn nút **"Execute"**.
-![](https://o7planning.org/vi/10221/cache/images/i/21283524.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/21284005.png)
-
-Nhấn **Next** để tiếp tục cài đặt **MySQL**.
-![](https://o7planning.org/vi/10221/cache/images/i/21284204.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20717.png)
-
-Bộ cài hiển thị các gói sẽ được cài vào.
-![](https://o7planning.org/vi/10221/cache/images/i/20719.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20721.png)
-
-Cấu hình **MySQL Server**.
-![](https://o7planning.org/vi/10221/cache/images/i/20723.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20725.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/21284731.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/21284820.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20729.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20731.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/21285092.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20733.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20735.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20737.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/21285417.png)
-
-Nhập vào password và nhấn **Check** để kiểm tra việc kết nối với **MySQL**.
-![](https://o7planning.org/vi/10221/cache/images/i/20739.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20741.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20743.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20745.png)
-
-Nhấn **Finish** để hoàn thành cài đặt.
-![](https://o7planning.org/vi/10221/cache/images/i/20747.png)
-
-## **2. Sử dụng MySQL Workbench**
-Mở **MySQL Workbench:**
-![](https://o7planning.org/vi/10221/cache/images/i/20765.png)
-
-![](https://o7planning.org/vi/10221/cache/images/i/20767.png)
-Hình ảnh **MySQL Workbench** với một vài cơ sở dữ liệu mẫu.
-![](https://o7planning.org/vi/10221/cache/images/i/20769.png)
-Tạo cơ sở dữ liệu với tên là doan2 tại đây:
-![](https://o7planning.org/vi/10221/cache/images/i/20771.png)
-
+Mở **MySQL Workbench** và tạo 1 cơ sở dữ liệu tên là doan2.
 ## **3. Cài đặt django**
 Với windows, mở cửa sổ terminal trong windows và gõ:
 > **pip install django**
@@ -223,11 +149,9 @@ Click **"Xem chi tiết"** sau đó vào giao diện click **"Thông tin cơ b�
 
 <video height="383" width="718" preload="auto" style="" class="_ox1 _21y0" data-video-width="718" data-video-height="383" data-ad-preview="video" id="u_6m_2" src="https://video.fsgn2-2.fna.fbcdn.net/v/t42.3356-2/49533493_2410791592295731_3310859674195019278_n.mp4/video-1545995621.mp4?_nc_cat=100&amp;vabr=251947&amp;_nc_ht=video.fsgn2-2.fna&amp;oh=5400740dc06c0fac7d442653fdbccf9f&amp;oe=5C280825&amp;dl=1"></video>
 
-<video height="383" width="718" preload="auto" style="" class="_ox1 _21y0" data-video-width="718" data-video-height="383" data-ad-preview="video" id="u_6m_2" src="https://video.fsgn2-2.fna.fbcdn.net/v/t42.3356-2/49533493_2410791592295731_3310859674195019278_n.mp4/video-1545995621.mp4?_nc_cat=100&amp;vabr=251947&amp;_nc_ht=video.fsgn2-2.fna&amp;oh=5400740dc06c0fac7d442653fdbccf9f&amp;oe=5C280825&amp;dl=1"></video>
 
 ![](media/lichsukhohang.PNG)
 [](media%2Fdemo.wmv)
-haha
 
 
 

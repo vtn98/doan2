@@ -228,6 +228,7 @@ Click **"Xem chi tiết"** sau đó vào giao diện click **"Thông tin cơ b�
 [](media%2Fdemo.wmv)
 
 haha
+[![Little red ridning hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
 
 
 

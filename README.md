@@ -153,6 +153,9 @@ Click **"Xem chi tiết"** sau đó vào giao diện click **"Thông tin cơ b�
 ![](media/lichsukhohang.PNG)
 [](media%2Fdemo.wmv)
 
+haha
+
+![](media/capnhatthongtinsanpham.PNG)
 
 
 

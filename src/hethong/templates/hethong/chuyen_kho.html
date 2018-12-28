@@ -1,0 +1,88 @@
+{% extends 'hethong/chi_tiet_kho_hang.html' %}
+
+{% block detailcontent %}
+<h1>Lưu chuyển hàng hóa</h1>					
+<!--  Thong bao ket qua chuyen kho-->
+{% if messages %}
+	<ul class="messages">
+	    {% for message in messages %}
+	    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+	    {% endfor %}
+	</ul>
+{% endif %}			
+	<!-- Form chua thong tin luu chuyen san pham giua cac kho -->
+	<form style="border:1px solid gray; padding: 10px; margin-top: 40px;" role="form" action="" method="POST">
+		{% csrf_token %}
+		{% for form in form %}
+		<div class="form-group">
+			<label for="exampleInputName">Tên sản phẩm: <span style="color: red;">*</span></label>
+			<div class="input-group">
+				<span class="input-group-addon">
+					<i class="glyphicon glyphicon-user"></i>
+				</span>
+				<input type="text" class="form-control" id="exampleInputName" name="name" required="" value="{{form.name}}">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="exampleInputAmount">Số lượng: <span style="color: red;">*</span></label>
+			<div class="input-group">
+				<span class="input-group-addon">
+					<i class="glyphicon glyphicon-home"></i>
+				</span>
+				<input type="text" class="form-control" id="exampleInputAmount" name="amount" required="">
+			</div>
+		</div>
+
+
+		<div class="form-group" style="text-align: left;">
+		    <label for="exampleInputManu">Ngày sản xuất: <span style="color: red;">*</span></label>
+		    <div class="input-group">
+		      	<span class="input-group-addon">
+		        	<i class="glyphicon glyphicon-list-alt"></i>
+		      	</span>
+		      	<input type="text" class="form-control" id="exampleInputManu" name="manufacturing_date" value="{{form.manufacturing_date}}" required="">
+		    </div>
+	  	</div>
+
+	  	<div class="form-group" style="text-align: left;">
+		    <label for="exampleInputEx">Hạn sử dụng: <span style="color: red;">*</span></label>
+		    <div class="input-group">
+		      	<span class="input-group-addon">
+		        	<i class="glyphicon glyphicon-list-alt"></i>
+		      	</span>
+		      	<input type="text" class="form-control" id="exampleInputEx" name="expiry_date" value="{{form.expiry_date}}" required="">
+		    </div>
+	  	</div>
+	
+		<div class="form-group">
+			<label for="exampleInputFrom">Kho nguồn: <span style="color: red;">*</span></label>
+			<div class="input-group">
+				<span class="input-group-addon">
+					<i class="glyphicon glyphicon-home"></i>
+				</span>
+				<input type="text" class="form-control" id="exampleInputFrom" name="container_from" required="" value="{{form.container_from_name}}">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="exampleInputTo">Chọn kho đích: <span style="color: red;">*</span></label>
+			<div class="input-group">
+				<span class="input-group-addon">
+					<i class="glyphicon glyphicon-user"></i>
+					 
+				</span>
+				<select class="form-control" name = 'container_to'>
+					{% for i in form.container_to_name %}
+					<option>{{i}}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+
+		<div>
+			<input type="submit" class=" btn btn-primary" name="capnhat" value="Cập nhật"></input>
+		</div>	
+		{% endfor %}
+	</form>
+{% endblock %}

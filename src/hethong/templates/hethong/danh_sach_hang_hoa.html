@@ -1,0 +1,72 @@
+{% extends 'hethong/nha_phan_phoi.html' %}
+
+{% block tieude %}
+<h3>Danh sách hàng hóa</h3>
+{% endblock %}
+
+{% block body %}
+<!-- Chua cac thanh tim kiem san pham theo ten, ma, nhom san pham -->
+<form style="border:1px solid gray; padding: 10px; margin-top: 40px;" role="form" action="" method="POST">
+	{% csrf_token %}
+	<div class="form-group" style="margin-top: 20px;">
+		<div class="row">
+			<div class="col-sm-3">
+				<input type="text" name="name" placeholder="Nhập tên hàng hóa..." style="height: 33px; width: 250px;">	
+			</div>
+			<div class="col-sm-3">
+				<input type="text" name="code" placeholder="Nhập mã hàng hóa..." style="height: 33px; width: 250px;">
+			</div>
+			<div class="col-sm-3">
+				<select class="form-control" name="product_type">
+					{% for row in form %}
+						{% if forloop.last %}
+							{% for i in row %}
+							<option>{{i}}</option>
+							{% endfor %}
+						{% endif %}
+					{% endfor %}
+		      	</select>		
+			</div>
+			<div class="btn-group">
+				<div class="col-sm-3">
+					<button type="submit" class=" btn btn-primary" name="timkiem"><span class="glyphicon glyphicon-search"></span>Tìm kiếm</button>
+				</div>
+			</div>
+		</div>
+		 
+	</div>
+
+	<!-- Hien thi danh sach san pham -->
+	<div class="form-group" style="margin-top: 30px; position: relative; overflow-y: scroll;">
+		<table class="table table-striped">
+			<thead>
+				<th>STT</th>
+				<th>Mã sản phẩm</th>
+				<th>Tên sản phẩm</th>
+				<th>Nhóm sản phẩm</th>
+				<th>Mô tả</th>
+				<th>Ảnh</th>
+				<th>Giá</th>
+				<th>Action</th>
+			</thead>
+			<body>
+				{% for row in form %}
+					{% if not forloop.last %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{row.code}}</td>
+						<td>{{row.name}}</td>
+						<td>{{row.product_category_id}}</td>
+						<td>{{row.description}}</td>
+						<td>{{row.image}}</td>
+						<td>{{row.price}}</td>
+						<td><input type="submit" class=" btn btn-primary" name="capnhat" value="Cập nhật" formaction="{% url 'cap_nhat_thong_tin_hang_hoa' row.code %}"></input></td>
+					 
+					</tr>
+					{% endif %}
+				{% endfor %}
+			</body>
+		</table>
+	</div>
+</form>
+{% endblock %}

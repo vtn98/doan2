@@ -1,0 +1,68 @@
+ {% extends 'hethong/chi_tiet_kho_hang.html' %}
+
+{% block detailcontent %}
+<form style="border:1px solid gray; padding: 10px; margin-top: 40px;" role="form" action="" method="POST">
+	{% csrf_token %}
+	{% for form in form %}
+		{% if not forloop.last %}
+			<!-- Form chua cac thong tin co ban cua kho hang can cap nhat -->
+			<div class="form-group">
+				<label for="exampleInputName">Tên kho hàng: <span style="color: red;">*</span></label>
+				<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-user"></i>
+						 
+					</span>
+					<input type="text" class="form-control" id="exampleInputName" name="name" value="{{form.name}}" required="" disabled="">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="exampleInputCode">Mã kho hàng: <span style="color: red;">*</span></label>
+				<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-qrcode"></i>
+					</span>
+					<input type="text" class="form-control" id="exampleInputCode" name="code" value="{{form.code}}" disabled="">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="exampleInputAddress">Địa chỉ: <span style="color: red;">*</span></label>
+				<div class="input-group">
+					<span class="input-group-addon">
+						<i class="glyphicon glyphicon-home"></i>
+					</span>
+					<input type="text" class="form-control" id="exampleInputAddress" name="address" value="{{form.address}}" required="">
+				</div>
+			</div>
+
+			<div class="form-group" style="text-align: left;">
+			    <label for="exampleInputPhone">Số điện thoại: <span style="color: red;">*</span></label>
+			    <div class="input-group">
+			      	<span class="input-group-addon">
+			        	<i class="glyphicon glyphicon-phone"></i>
+			      	</span>
+			      	<input type="text" class="form-control" id="exampleInputPhone" name="mobile" value="{{form.mobile}}" required="">
+			    </div>
+		  	</div>
+			 
+			<div>
+				<button type="submit" class=" btn btn-primary" name="taomoi">Cập nhật</button>
+			</div>	
+
+			<!-- Thong bao ket qua cap nhat -->
+			<div>
+				{% if messages %}
+				<ul class="messages">
+				    {% for message in messages %}
+				    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+				    {% endfor %}
+				</ul>
+				{% endif %}
+			</div>
+		{% endif %}
+	{% endfor %}
+</form>
+
+{% endblock %}

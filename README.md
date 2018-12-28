@@ -151,7 +151,7 @@ Click **"Xem chi tiết"** sau đó vào giao diện click **"Thông tin cơ b�
 
 [](media/video.wmv)
 
-[](media%2Fdemo.wmv)
+[](./media%2Fdemo.wmv)
 
 haha
 

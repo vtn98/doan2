@@ -218,6 +218,8 @@ Click **"Xem chi tiết"** sau đó vào giao diện click **"Thông tin cơ b�
 <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/48424980_2179785839002820_4028604582627115008_n.png?_nc_cat=109&amp;_nc_ht=scontent.fsgn2-4.fna&amp;oh=f4e5b7183e1a32d717f04c3a7ba41359&amp;oe=5C90BCB4" alt="" class="img" style="width: 718px; height: 366px;">
 
 Ở đây chúng ta cũng có thể tìm kiếm thông tin các mặt hàng thông qua tên hàng hóa, mã hàng hóa bằng cách nhập thông tin cần tìm kiếm vào các thanh tìm kiếm và nhấn **"Tìm kiếm"**.
+![](media/demo video.mwv)
+
 
 
 

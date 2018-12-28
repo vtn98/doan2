@@ -152,7 +152,7 @@ Click **"Xem chi tiết"** sau đó vào giao diện click **"Thông tin cơ b�
 
 ![](media/capnhatthongtinnhomsanpham.PNG)
 
-[](media%2Fdemo.wmv)
+[](media/demo.wmv)
 
 haha
 

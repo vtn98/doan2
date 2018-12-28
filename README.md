@@ -157,6 +157,8 @@ haha
 
 ![](media/capnhatthongtinnhomsanpham.PNG)
 
+[https://drive.google.com/file/d/1XtHBsGFc86uWYMNvTBdc1UWBKhXInozN/view?usp=sharing](https://drive.google.com/file/d/1XtHBsGFc86uWYMNvTBdc1UWBKhXInozN/view?usp=sharing)
+
 
 [](media%2Fngoc.mp3)
 
